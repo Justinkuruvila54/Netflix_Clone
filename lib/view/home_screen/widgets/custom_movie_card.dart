@@ -14,12 +14,12 @@ class Customhomemoviecard extends StatelessWidget {
     required this.imagelist,
     this.isoptionvisible = false,
   });
-  final String tittle;
-  final double height;
-  final double width;
-  final bool isCircular;
-  final List<String> imagelist;
-  final bool isoptionvisible;
+  final String tittle; //custommoviecard tittle
+  final double height;  //set card default height
+  final double width;  //set card default width
+  final bool isCircular; //movie card some card maybe circular
+  final List<String> imagelist; //it is dummy dataimagelist for display moviecard images
+  final bool isoptionvisible; //options for movie card
   @override
   Widget build(BuildContext context) {
     return Container(
