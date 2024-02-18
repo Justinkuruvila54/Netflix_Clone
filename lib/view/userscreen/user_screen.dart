@@ -68,14 +68,14 @@ class _UserscreenState extends State<Userscreen> {
                                 decoration: BoxDecoration(
                                     image: DecorationImage(
                                         image: AssetImage(Database
-                                            .imagedatabase[index]["image"]))),
+                                            .imagedatabase[index]["image"].toString()))),
                               ),
                             ),
                             SizedBox(
                               height: 10,
                             ),
                             Text(
-                              Database.imagedatabase[index]["text"],
+                              Database.imagedatabase[index]["text"].toString(),
                               style: TextStyle(color: Colorconstant.mainwhite),
                             )
                           ],

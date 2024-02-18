@@ -3,7 +3,7 @@
 import 'package:netflix_clone/utils/imageconstants.dart';
 
 class Database {
-  static List<Map<String, dynamic>> imagedatabase = [
+  static List<Map<String, String>> imagedatabase = [
     {
       "image": Imageconstants.userone,
       "text": "userone",
